@@ -10,35 +10,30 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
   <header class="header">
     <div class="header__logo">
+      <img src="./assets/images/logo.svg" alt="Logo">
 
     </div>
-    <div class="header__menu">
-      <img src="header__menu__button" alt="">
+    <div class="header__menu ">
+      <div class="header__menu__logo">
+        <img src="./assets/images/icon-menu.svg" alt="menu" class="menu__button">
+        <img src="./assets/images/icon-menu-close.svg" alt="close icon" class="menu__button__close">
+      </div>
       <ul class="header__menu__links">
-        <li class="header__munu__links__item">Home</li>
-        <li class="header__munu__links__item">New</li>
-        <li class="header__munu__links__item">Popular</li>
-        <li class="header__munu__links__item">Trending</li>
-        <li class="header__munu__links__item">Categories</li>
+        <li class="header__menu__links__item">Home</li>
+        <li class="header__menu__links__item">New</li>
+        <li class="header__menu__links__item">Popular</li>
+        <li class="header__menu__links__item">Trending</li>
+        <li class="header__menu__links__item">Categories</li>
       </ul>
     </div>
 
@@ -46,14 +41,13 @@
 
   <main class="container">
 
-    <div class="container__hero"> <img src="" alt=""></div>
+    <div class="container__hero"> <img src="./assets/images/image-web-3-mobile.jpg" alt="image hero"></div>
 
     <section class="container__intro">
       <h1 class="container__intro__title">The Bright Future of Web 3.0?</h1>
 
-
       <p class="container__intro__description">We dive into the next evolution of the web that claims to put the power
-        of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        of the platforms back into the hands of the people. But is it really <br> fulfilling its promise?</p>
 
       <button type="button" class="container__intro__btn">Read more</button>
     </section>
@@ -67,13 +61,15 @@
         <a href="#" class="aside__wrapper__title">Hydrogen VS Electric Cars</a>
         <p class="aside__wrapper__content">Will hydrogen-fueled cars ever catch up to EVs?</p>
       </div>
-      <hr>
+      <hr class="container__aside__divider">
 
       <div class="aside__wrapper">
-        <a href="#" class="aside__wrapper__title">The Downsides of AI Artistry</h3>
-          <p class="aside__wrapper__content">What are the possible adverse effects of on-demand AI image generation?</p>
+        <a href="#" class="aside__wrapper__title">The Downsides of AI Artistry</a>
+        <p class="aside__wrapper__content">What are the possible adverse effects of on-demand AI image generation?</p>
       </div>
-      <hr>
+
+      <hr class="container__aside__divider">
+
       <div class="aside__wrapper">
         <a href="#" class="aside__wrapper__title">Is VC Funding Drying Up?</a>
         <p class="aside__wrapper__content">Private funding by VC firms is down 50% YOY. We take a look at what that
@@ -81,45 +77,48 @@
       </div>
     </aside>
 
-    <article class="content__articles">
+    <article class="container__articles">
 
       <div class="articles__item">
-        <img src="" alt="" class="articles__item__image">
+        <div class="articles__item__image">
+          <img src=".//assets/images/image-retro-pcs.jpg" alt=" Retro Pc" class="item__image__img">
+        </div>
         <div class="articles__item__content">
           <span class="content__number">01</span>
           <h3 class="content__title">Reviving Retro PCs</h3>
           <p class="content__text">What happens when old PCs are given modern upgrades?</p>
-
         </div>
       </div>
 
       <div class="articles__item">
-        <img src="" alt="" class="articles__item__image">
+        <div class="articles__item__image">
+          <img src="./assets/images/image-top-laptops.jpg" alt="Ranking laptos" class="item__image__img">
+        </div>
         <div class="articles__item__content">
           <span class="content__number">02</span>
           <h3 class="content__title">Top 10 Laptops of 2022</h3>
-          <p class="content__text"> Our best picks for various needs and budgets.</p>
+          <p class="content__text">Our best picks for various needs and budgets.</p>
 
         </div>
       </div>
 
       <div class="articles__item">
-        <img src="" alt="" class="articles__item__image">
+        <div class="articles__item__image">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="Gaming" class="item__image__img">
+        </div>
         <div class="articles__item__content">
           <span class="content__number">03</span>
           <h3 class="content__title">The Growth of Gaming</h3>
           <p class="content__text">How the pandemic has sparked fresh opportunities.</p>
+
         </div>
       </div>
-
     </article>
-
   </main>
-
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/cyeguez" target="_blank">Cesar Yeguez</a>.
   </footer>
 </body>
 

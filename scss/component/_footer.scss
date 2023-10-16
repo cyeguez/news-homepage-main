@@ -1,0 +1,17 @@
+  @use '../base/var'as v;
+    .attribution {
+      width: 100%;
+      margin-top: 3rem;
+     text-align: center;      
+      font-size: 0.75em;
+      font-weight: v.$fw-700;
+      
+      & a {
+        display: inline;
+        width: 100%;
+        color: v.$Soft-red;
+        
+      }
+    }
+
+  
