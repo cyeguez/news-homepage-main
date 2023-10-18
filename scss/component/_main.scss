@@ -6,7 +6,8 @@
   .container__hero {
     width: 100%;
     height: 18.75rem;
-    background-image: url(../../assets/images/image-web-3-mobile.jpg);
+    background-color: lightblue;
+    // background-image: url("../../assets/images/image-web-3-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -155,9 +156,10 @@
       grid-row: 1/2;
       width: 100%;
       height: 18.75rem;
-      background-image: url(../../assets/images/image-web-3-desktop.jpg);
+      background-color: #83ea73;
+      // background-image: url("../../assets/images/image-web-3-desktop.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: cover;      
     }
 
     .container__intro {
