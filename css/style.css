@@ -107,7 +107,7 @@
   width: 100%;
   height: 18.75rem;
   background-color: lightblue;
-  background-image: url("../../assets/images/image-web-3-mobile.jpg");
+  background-image: url("../assets/images/image-web-3-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -238,7 +238,7 @@
     width: 100%;
     height: 18.75rem;
     background-color: #83ea73;
-    background-image: url("../../assets/images/image-web-3-desktop.jpg");
+    background-image: url("../assets/images/image-web-3-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -438,3 +438,5 @@ body {
   font-size: 0.938em;
   color: hsl(236, 13%, 42%);
 }
+
+/*# sourceMappingURL=style.css.map */
